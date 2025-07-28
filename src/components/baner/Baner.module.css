@@ -1,0 +1,56 @@
+.baner_container {
+  height: 700px;
+  background-image: url("../../assets/Picture.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 436px;
+  padding-bottom: 60px;
+}
+.baner {
+  padding-top: 436px;
+  padding-bottom: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 52px;
+}
+.baner_title {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+
+  /* line-height: 72px; */
+  line-height: 1.2;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+}
+.baner_text {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0;
+
+  /* line-height: 32px; */
+  line-height: 1.33333;
+  text-align: center;
+  color: #fff;
+}
+.baner_btn {
+  border-radius: 12px;
+
+  width: 276px;
+  height: 44px;
+  background: #3470ff;
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  cursor: pointer;
+}
+.baner_btn:hover {
+  border: 1px dashed #9747ff;
+}
