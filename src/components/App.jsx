@@ -1,6 +1,7 @@
 import "./App.css";
-import Baner from "./baner/Baner";
-import Heder from "./heder/Heder";
+import Baner from "./Baner/Baner";
+import Heder from "./Heder/Heder";
+import FeedbackForm from "./Catalog/Catalog";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Heder />
         <Baner />
       </div>
+      <FeedbackForm />
     </>
   );
 }
